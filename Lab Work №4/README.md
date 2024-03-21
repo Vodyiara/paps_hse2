@@ -138,7 +138,9 @@ pm.test("Response body should contain 'patients'", function () {
     pm.expect(pm.response.json()).to.have.property('patients');
 });
 ```
-![image_2024-02-15_23-27-00]()
+![image_2024-02-15_23-27-00](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Get1.png)
+![image_2024-02-15_23-27-00](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Get2.png)
+![image_2024-02-15_23-27-00](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Get1_test.png)
 
 ### 2. Метод POST для добавления нового пациента
 Ниже представлен метод для добавления пациента:
@@ -164,7 +166,9 @@ def add_patient():
 }
 ```
 
-![image_2024-02-15_23-31-34]()
+![image_2024-02-15_23-31-34](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Post1.png)
+![image_2024-02-15_23-31-34](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Post_2.png)
+![image_2024-02-15_23-31-34](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Post3.png)
 
 ### 3. Метод PUT для обновления данных конкретного пациента
 Ниже представлен метод для обновления данных о пациенте:
@@ -190,7 +194,9 @@ def update_patient(id):
 }
 ```
 
-![image_2024-02-15_23-35-03]()
+![image_2024-02-15_23-35-03](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Put1.png)
+![image_2024-02-15_23-35-03](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Put2.png)
+![image_2024-02-15_23-35-03](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Put3.png)
 
 ### 4. Метод DELETE для удаления конкретного пациента
 Ниже представлен метод для удаления пациента:
@@ -206,7 +212,9 @@ def delete_patient(id):
     "message": "Пациент успешно удален."
 }
 ```
-![image_2024-02-15_23-33-09]()
+![image_2024-02-15_23-33-09](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Delete1.png)
+![image_2024-02-15_23-33-09](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Delete2.png)
+![image_2024-02-15_23-33-09](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Delete3.png)
 
 ### 5. Метод GET для получения результатов всех анализов из базы данных
 ```python
@@ -230,7 +238,8 @@ def analysis_results():
 }
 ```
 
-![image_2024-02-15_23-36-37]()
+![image_2024-02-15_23-36-37](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Get_analisys1.png)
+![image_2024-02-15_23-36-37](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Get_analisys2.png)
 
 ### 6. Метод POST для добавления нового аналазиа к определенному пациенту
 ```python
@@ -251,4 +260,5 @@ def add_analysis_result():
     "message": "Результаты анализов для пациента с успешно добавлены."
 }
 ```
-![image_2024-02-15_23-37-27]()
+![image_2024-02-15_23-37-27](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Post_analisis1.png)
+![image_2024-02-15_23-37-27](https://github.com/Vodyiara/paps_hse2/blob/LabWork4/Lab%20Work%20%E2%84%964/Lab4_photo/Post_analisis2.png)
